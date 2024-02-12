@@ -1,0 +1,60 @@
+/* styles.css */
+.med-component {
+    font-family: Arial, sans-serif;
+  }
+  
+  .med-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .med-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .med-item {
+    margin-bottom: 40px;
+  }
+  
+  .med-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .med-name {
+    font-weight: bold;
+  }
+  
+  .med-specialization {
+    font-style: italic;
+  }
+  
+  .med-degree {
+    font-style: italic;
+  }
+  
+  .med-mobile {
+    font-style: italic;
+  }
+  
+  .med-appointment-button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .med-appointment-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .med-appointment-confirmation {
+    color: green;
+    font-weight: bold;
+  }
+  

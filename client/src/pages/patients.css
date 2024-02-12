@@ -1,0 +1,50 @@
+/* Patient */
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .portfolio-details {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: calc(33.33% - 40px);
+  }
+  
+  .portfolio-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .portfolio-email,
+  .portfolio-mobile,
+  .portfolio-dob,
+  .portfolio-age,
+  .portfolio-sex,
+  .portfolio-address,
+  .portfolio-emergency-contact,
+  .portfolio-medications,
+  .portfolio-allergies,
+  .portfolio-medical-history {
+    margin-bottom: 5px;
+  }
+  
+  .portfolio-emergency-contact {
+    font-style: italic;
+  }
+  
+  @media (max-width: 768px) {
+    .portfolio-details {
+      width: calc(50% - 40px);
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .portfolio-details {
+      width: calc(100% - 40px);
+    }
+  }
+  

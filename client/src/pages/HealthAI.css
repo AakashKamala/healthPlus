@@ -1,0 +1,103 @@
+/* HealthAI */
+
+.medical-assistant-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .medical-assistant-container h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .medical-assistant-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .input-section {
+    margin-bottom: 20px;
+  }
+  
+  .input-section label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .input-section textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .button-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .button-section button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff; /* Healthcare Blue */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-section button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .button-section button:hover {
+    background-color: #0056b3; /* Darker Blue on Hover */
+  }
+  
+  .result-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .result-section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .result-section h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .result-section p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  /* Additional Styles */
+  
+  .suggest {
+    color: #333; /* Dark Gray */
+  }
+  
+  .res {
+    font-weight: bold;
+  }
+  
+  .recom {
+    margin-top: 20px;
+  }
+  
+  .lab {
+    font-weight: bold;
+  }
+  
+  .dat {
+    margin-bottom: 5px;
+  }
+  
